@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/creat-account.css">
+
+    <!--Google Font 1.DM Serif Text 2.Noto Sans Traditional Chinese-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+
     <title>Create Account Page</title>
 </head>
 <body>
-    
+    <div class="logo">
+        <img src="./imgs/trickingLogo.png" alt="ncku tricking club logo">
+        <div class="club-name">NCKU Tricking</div>
+    </div>
+    <div class="center-container">
+        <div class="create-account-box">
+            <div class="instruction">請輸入你的資訊</div>
+            <!--username, email, phone number, gender, age, password-->
+            <input type="text" class="account-input" placeholder="使用者名稱">
+            <input type="email" class="account-input" placeholder="Email">
+            <input type="tel" class="account-input" placeholder="手機號碼">
+            <div class="sex-radio">
+                <div> 你的生理性別</div>
+                <input type="radio" name="gender" value="male"> 男性
+                <input type="radio" name="gender" value="female"> 女性
+            </div>
+            <input type="number" class="account-input" placeholder="年紀">
+            <input type="text" class="account-input" placeholder="密碼">
+            <div class="button-container">
+                <a href="./login.html"><button class="back-to-login-btn">返回登入</button></a>
+                <a href="./member.html"><button class="submit-btn">送出</button></a>
+            </div>
+        </div>
+        
+    </div>
 </body>
 </html>

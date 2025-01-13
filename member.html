@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/member.css">
+
+    <!--Google Font 1.DM Serif Text 2.Noto Sans Traditional Chinese-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <title>Member Page</title>
+</head>
+<body>
+    <div class="logo">
+        <img src="./imgs/trickingLogo.png" alt="ncku tricking club logo">
+        <div class="club-name">NCKU Tricking</div>
+    </div>
+    <div class="profile-container">
+        <div class="profile-box">
+            <!-- Page Title -->
+            <div class="profile-title">個人資料</div>
+
+            <!-- Profile Section -->
+            <div class="profile-section">
+                <div class="profile-picture">
+                    <img src="./imgs/default-avatar.svg" alt="User Avatar">
+                    <button class="change-picture-btn">
+                        <img src="./imgs/camera.svg" alt="Change Picture">
+                    </button>
+                </div>
+            </div>
+
+            <!-- Editable Fields -->
+            <div class="info-container">
+                <input type="text" class="info-input" placeholder="Username" value="Username">
+                <input type="email" class="info-input" placeholder="Email" value="user@example.com">
+                <input type="tel" class="info-input" placeholder="Phone Number" value="123-456-7890">
+                <div class="info-gender">
+                    <label>
+                        <input type="radio" name="gender" value="male" checked> 男性
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="female"> 女性
+                    </label>
+                </div>
+                <input type="number" class="info-input" placeholder="Age" value="25">
+                <input type="text" class="info-input" placeholder="Password" value="abcd">
+            </div>
+
+            <!-- Buttons -->
+            <div class="button-container">
+                <a href="login.html"><button class="back-btn">登出</button></a>
+                <button class="save-btn">儲存</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
