@@ -117,11 +117,12 @@
 
 .info-input:focus {
     outline: none;
-    border-bottom: 1px solid rgb(97, 53, 53);
+    border-bottom: 1px solid rgb(224, 224, 224);
+    transition: border-bottom 0.3s;
 }
 
 .info-gender label {
-    color: rgb(233, 233, 233);
+    color: rgb(241, 241, 241);
     margin-right: 15px;
 }
 
